@@ -1,0 +1,7 @@
+import{bus} from "./bus";
+import{motor}from "./motor";
+import{ruta}from "./ruta";
+
+const busito= new bus(2,"amarillo","La Esquina","Cuatro De Noviembre");
+const rutita= new ruta("las Jacuatas","ULEAM");
+const motorcito= new motor("mitsubishi","v6");
