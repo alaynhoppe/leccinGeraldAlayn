@@ -1,0 +1,21 @@
+export class ruta{
+    private _salida: string;
+    public get salida(): string {
+        return this._salida;
+    }
+    public set salida(value: string) {
+        this._salida = value;
+    }
+    private _llegada: string;
+    public get llegada(): string {
+        return this._llegada;
+    }
+    public set llegada(value: string) {
+        this._llegada = value;
+    }
+    constructor(salida:string,llegada:string){
+        this.llegada=llegada;
+        this.salida=salida;
+    }
+
+}
