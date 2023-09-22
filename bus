@@ -1,0 +1,41 @@
+import { motor } from "./motor";
+
+export class bus{
+    private _numerodepasajeros: number;
+    public get numerodepasajeros(): number {
+        return this._numerodepasajeros;
+    }
+    public set numerodepasajeros(value: number) {
+        this._numerodepasajeros = value;
+    }
+    private _color: string;
+    public get color(): string {
+        return this._color;
+    }
+    public set color(value: string) {
+        this._color = value;
+    }
+    private _parada: string;
+    public get parada(): string {
+        return this._parada;
+    }
+    public set parada(value: string) {
+        this._parada = value;
+    }
+    private _recorrido: string;
+    public get recorrido(): string {
+        return this._recorrido;
+    }
+    public set recorrido(value: string) {
+        this._recorrido = value;
+    }
+
+constructor(numerodepasajeros:number, motor:string, parada:string, recorrido:string){
+    this.numerodepasajeros = 2;
+    this.color="color";
+    this.parada="La esquina";
+    this.recorrido="Cuatro de noviembre";
+}
+
+
+}
