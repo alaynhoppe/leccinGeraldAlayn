@@ -1,0 +1,24 @@
+export class motor{
+
+    private _marca: string;
+    public get marca(): string {
+        return this._marca;
+    }
+    public set marca(value: string) {
+        this._marca = value;
+    }
+    private _modelo: string;
+    public get modelo(): string {
+        return this._modelo;
+    }
+    public set modelo(value: string) {
+        this._modelo = value;
+    }
+constructor(marca:string,modelo:string){
+    this.marca="HINO";
+    this.modelo="MAVESA";
+    
+}
+
+
+}
